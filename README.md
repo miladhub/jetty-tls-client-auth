@@ -20,6 +20,12 @@ openssl req -new -x509 -key client-key.pem -out client-cert.pem -days 365 -subj 
 openssl pkcs12 -export -in client-cert.pem -inkey client-key.pem -out truststore.p12 -name jetty -password pass:changeit
 ```
 
+# Building
+
+```bash
+mvn jetty:run
+```
+
 # Testing
 
 Test with cURL:
