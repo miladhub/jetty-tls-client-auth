@@ -1,6 +1,6 @@
 # Jetty server with TLS client authentication
 
-Example of setting up a Jetty server using the Jetty Maven plugin.
+Example of setting up a Jetty server capable of TLS client authentication using the Jetty Maven plugin.
 
 # Create the certificates
 
